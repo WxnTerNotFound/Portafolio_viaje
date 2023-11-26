@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Página de Viajes</title>
+    <style>
+        .oculto {
+            display: none;
+        }
+    </style>
+    <script>
+        function mostrarMas() {
+            var contenido = document.getElementById("contenidoAdicional");
+            var boton = document.getElementById("mostrarMas");
+
+            if (contenido.style.display === "none") {
+                contenido.style.display = "block";
+                boton.innerHTML = "Mostrar menos";
+            } else {
+                contenido.style.display = "none";
+                boton.innerHTML = "Más información";
+            }
+        }
+
+        function mostrarMas1() {
+            var contenido = document.getElementById("contenidoAdicional1");
+            var boton = document.getElementById("mostrarMas1");
+
+            if (contenido.style.display === "none") {
+                contenido.style.display = "block";
+                boton.innerHTML = "Mostrar menos";
+            } else {
+                contenido.style.display = "none";
+                boton.innerHTML = "Más información";
+            }
+        }
+
+        function mostrarMas2() {
+            var contenido = document.getElementById("contenidoAdicional2");
+            var boton = document.getElementById("mostrarMas2");
+
+            if (contenido.style.display === "none") {
+                contenido.style.display = "block";
+                boton.innerHTML = "Mostrar menos";
+            } else {
+                contenido.style.display = "none";
+                boton.innerHTML = "Más información";
+            }
+        }
+
+        window.addEventListener('DOMContentLoaded', (event) => {
+            var audio = document.getElementById('miAudio');
+            audio.play();
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Les Parcours de la CFT</h1>
+    </header>
+    <div class="destino">
+        <img src="./Japan.jpg" alt="Destino">
+        <h2>Japón</h2>
+        <p>Mi gente Tamo' en Japón</p>
+        <div id="contenidoAdicional" class="oculto">
+            <p>Explora Japón, donde la tradición y la modernidad danzan en perfecta armonía. Sumérgete en la belleza de sus paisajes urbanos futuristas y sus antiguos templos ocultos. Deléitate con la exquisitez de la cocina japonesa y experimenta la magia de los cerezos en flor en primavera. Descubre la elegancia de los jardines zen, las ceremonias del té y la hospitalidad única de este fascinante país. Tu viaje a Japón será una fusión de historia, cultura refinada y momentos inolvidables.</p>
+        </div>
+        <a href="#" id="mostrarMas" onclick="mostrarMas()">Más información</a>
+    </div>
+
+    <div class="Suiza">
+        <img src="otra_imagen_destino.jpg" alt="Otro Destino">
+        <h2>Suiza</h2>
+        <p>Mi Loco Andamo' Suizos</p>
+        <div id="contenidoAdicional1" class="oculto">
+            <p>Descubre la armonía perfecta entre la tradición y la modernidad en Suiza. Explora paisajes alpinos serenos y ciudades sofisticadas. Vive la esencia de la precisión suiza en trenes y relojes. Deléitate con la exquisita gastronomía y sumérgete en la belleza de lagos y montañas. Descubre la elegancia de pueblos suizos, la hospitalidad y la riqueza cultural. Tu viaje a Suiza será una fusión de tradición, innovación y momentos inolvidables. ¡Bienvenido a la experiencia suiza en nuestro sitio de viajes!</p>
+        </div>
+        <a href="#" id="mostrarMas1" onclick="mostrarMas1()">Más información</a>
+    </div>
+
+    <div class="España">
+        <img src="otra_imagen_destino.jpg" alt="Otro Destino">
+        <h2>España</h2>
+        <p>Chavaleh Ostia que estamo' en España</p>
+        <div id="contenidoAdicional2" class="oculto">
+            <p>Bienvenido a la cautivadora España, donde la historia y la modernidad se entrelazan en una danza vibrante. Descubre la riqueza de sus ciudades históricas, desde la majestuosidad de la Alhambra en Granada hasta la arquitectura única de la Sagrada Familia en Barcelona. Sumérgete en la pasión y la alegría de la cultura española a través de flamenco, festivales vibrantes y deliciosa gastronomía.</p>
+        </div>
+        <a href="#" id="mostrarMas2" onclick="mostrarMas2()">Más información</a>
+    </div>
+    
+    <audio id="miAudio">
+        <source src="/[Waploaded_348]The_Kid_LAROI_Ft_Lil_Tecca__Diva.mp3" type="audio/mp3">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    
+    <footer>
+        <p>&copy; 2023 Página de Viajes</p>
+    </footer>
+</body>
+</html>

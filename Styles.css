@@ -1,0 +1,184 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url(/Maletas.jpg );
+    
+}
+
+@font-face {
+    font-family: 'AeroliteCPone';
+    src: url('/AeroliteCPone.otf') format('opentype');
+}
+
+header {
+    font-family: 'AeroliteCPone', 'Arial', sans-serif;
+    font-size: 30px;
+    color: #F2FDFF;
+    text-align: center;
+    padding: 2em 0;
+    background-image: url('/afcrmbt78wxri8drgn6y.gif');
+    background-repeat: no-repeat;
+    background-size: 1550px, cover; 
+    background-position: center center;
+}
+
+    
+    
+
+.destino {
+    background-image: url('./OIP (1).jpg');
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e2c2c6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.destino img {
+    display: none; 
+}
+
+.destino h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 150;
+    font-size: 44px;
+    color: #faf1f0;
+}
+
+.destino p {
+    color: #f1f8f6;
+}
+
+.destino a {
+    display: block;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.destino a:hover {
+    background-color: rgba(51, 51, 51, 0.9); 
+}
+
+
+#contenidoAdicional {
+    color: #344966;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+}
+.Suiza {
+    background-image: url(/Suizz.jpg);
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e2c2c6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Suiza img {
+    display: none; 
+}
+
+.Suiza h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 150;
+    font-size: 44px;
+    color: #faf1f0;
+}
+
+.Suiza p {
+    color: #f1f8f6;
+}
+
+.Suiza a {
+    display: block;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.Suiza a:hover {
+    background-color: rgba(51, 51, 51, 0.9); 
+}
+
+
+#contenidoAdicional1 {
+    color: #344966;
+    font-size: 16px;
+}
+.España {
+    background-image: url(/España.jpg);
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e2c2c6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.España img {
+    display: none; 
+}
+
+.España h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 150;
+    font-size: 44px;
+    color: #faf1f0;
+}
+
+.España p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#F8FFF4;
+    font-weight: bold;
+}
+
+.España a {
+    display: block;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.España a:hover {
+    background-color: rgba(51, 51, 51, 0.9); 
+}
+
+
+#contenidoAdicional1 {
+    color: #344966;
+    font-size: 16px;
+}
+
+
